@@ -1,0 +1,105 @@
+body
+{
+   background-image: url(img/fon.jpg);
+   background-color: #00345C;
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   padding:0px;
+   margin:0px;
+}
+#header{
+	border-top: #000 solid 1px;
+	border-bottom: #0D3E63 solid 5px;
+	background-color: #1A496D;
+	height:40px;
+	padding-top:5px;
+	opacity: 0.8;
+	filter: alpha(Opacity=70);
+}
+#zagolov
+{
+	font-family:Tahoma;
+	font-size:40px;
+	text-align:center;
+	margin-top:10px;
+	font-weight: bold;
+	border-bottom: #00355D solid 4px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+#tron
+{
+	font-family:Tahoma;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+#send
+{
+	position:relative;
+	width: 490px;
+	height: 535px;
+	border: #00355D solid 4px;
+	border-radius: 10px;
+	background-color: #4D7195;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 150px;
+	opacity: 0.9;
+	filter: alpha(Opacity=70);
+}
+#cotackt
+{
+	font-family:Arial;
+	font-size: 14px;
+	border:#093;
+	text-align:center;
+	width:420px;
+	margin-top:390px;
+	margin-left:34px;
+	border-top: #00355D solid 4px;
+	padding-top: 8px;
+	border-radius: 10px;
+}
+#footer{
+	position: fixed;
+	bottom:0px;
+	height:100px;
+	width:100%;
+	background: black;
+	border-top: gold dashed 2px;
+	text-align:center;
+	font-size: 14px;
+}
+#ssilky{
+	margin-top:18px;
+	font-family:Tahoma;
+	font-weight:bold; 
+}
+.copyright{
+	float:center;
+	font-family:Arial;
+	color:darkred;
+	font-size:14px;
+}
+
+A:link{
+	text-decoration: none;
+	color:white;
+}
+
+A:visited{
+	text-decoration: none;
+	color:white;
+}
+
+A:active{
+	text-decoration: none;
+	color:white;
+}
+
+A:hover{
+	text-decoration: none;
+	color:white;
+}

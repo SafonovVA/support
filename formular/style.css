@@ -1,0 +1,88 @@
+body
+{
+	background: white;
+   	padding:0px;
+   	margin:0px;
+}
+
+A:link{
+	text-decoration: none;
+	color:#00355D;
+}
+
+A:visited{
+	text-decoration: none;
+	color:#00355D;
+}
+
+A:active{
+	text-decoration: none;
+	color:#00355D;
+}
+
+A:hover{
+	text-decoration: none;
+	color:red;
+}
+
+#all{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 60px;
+	width: 1216px;
+	height: 500px;
+	text-align: center;
+}
+
+#hp{
+	position: absolute;
+	top:30px;
+	width: 350px;
+	border: 3px solid green;
+	border-radius: 10px;
+	top-box-shadow: #0D3E63 20px ;
+	padding: 20px;
+	text-align: center;
+}
+
+#hp img{
+	width: 300px;
+	height: 400px;
+}
+
+#fujitsu{
+	position: absolute;
+	top:30px;
+	width: 350px;
+	left: 410px;
+	border: 3px solid green;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+#fujitsu img{
+	width: 300px;
+	height: 400px;
+}
+
+
+#dell{
+	position: absolute;
+	top:30px;
+	width: 350px;
+	left: 820px;
+	border: 3px solid green;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+#dell img{
+	width: 300px;
+	height: 400px;
+}
+
+a{
+	font-family: Tahoma;
+}
