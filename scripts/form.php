@@ -17,9 +17,9 @@ $regdate = date ('Y.m.d');
 $ip = $_SERVER['REMOTE_ADDR'];
 
 $insert_sql = "INSERT INTO `helpdesk`.`support` (`id`, `username`, `departament`, `mail`, `phone`, `problem`, `another`, `regtime`, `regdate`, `ip`, `status`) VALUES ('NULL', '{$username}', '{$departament}', '{$mail}', '{$phone}', '{$problem}', '{$another}', '{$regtime}', '{$regdate}', '{$ip}', 'необработана');";
-mysql_query($insert_sql);
+mysqli_query($con1, $insert_sql);
 echo "<center><h1>Ваша заявка принята!</h1></center>";
-mysql_close();
+mysqli_close($con1);
 
 
 //Отправка копию в электронную почту
