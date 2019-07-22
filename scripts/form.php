@@ -113,4 +113,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['formid'] == 'form1')
    exit;
 }
 
-header("refresh:1; url=http://10.16.48.22/support");
+//header("refresh:1; url=http://10.16.48.22/support");
+header("refresh:1; url=http://support");

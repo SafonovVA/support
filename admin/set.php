@@ -14,6 +14,6 @@ else {
 
     $delete = mysqli_query($con, "DELETE FROM support WHERE id='$_POST[id]'");
 }
-header("refresh:0; url=http://10.16.48.22/support/admin");
-//header("refresh:0; url=http://support/admin");
+//header("refresh:0; url=http://10.16.48.22/support/admin");
+header("refresh:0; url=http://support/admin");
 
